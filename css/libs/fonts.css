@@ -1,0 +1,47 @@
+@font-face {
+    font-family: PFAgoraSlabPro;
+    src: url('../fonts/pfagoraslabpro-black.eot');
+    src: url('../fonts/pfagoraslabpro-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfagoraslabpro-black.woff2') format('woff2'),
+         url('../fonts/pfagoraslabpro-black.woff') format('woff'),
+         url('../fonts/pfagoraslabpro-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+	font-family: BebasNeueBold;
+    src: url('../fonts/bebasneue_bold.eot');
+    src: url('../fonts/bebasneue_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_bold.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold.woff') format('woff'),
+         url('../fonts/bebasneue_bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+	font-family: PFAgoraSlabPro;
+    src: url('../fonts/pfagoraslabpro-bold.eot');
+    src: url('../fonts/pfagoraslabpro-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfagoraslabpro-bold.woff2') format('woff2'),
+         url('../fonts/pfagoraslabpro-bold.woff') format('woff'),
+         url('../fonts/pfagoraslabpro-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+	font-family: PFAgoraSlabPro;
+    src: url('../fonts/pfagoraslabpro-reg.eot');
+    src: url('../fonts/pfagoraslabpro-reg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfagoraslabpro-reg.woff2') format('woff2'),
+         url('../fonts/pfagoraslabpro-reg.woff') format('woff'),
+         url('../fonts/pfagoraslabpro-reg.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
