@@ -44,7 +44,7 @@ $message .= "Показ по дополнительным ролевантным
 $message .= "Идентификатор объявления: $creative\n";
 $message .= "Тип соответствия ключа(e-точное/p-фразовое/b-широкое): $matchtype\n\n";
 $message .= "Гео-положение отправителя: $location\n\n";
-$message .= "Ссылка на сайт: $location\n";
+$message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n";
 
 mail ($to,$subject,$message,$headers);
