@@ -88,6 +88,10 @@ $('<style>section,.section{height:800px;display:block}.animation,.animation2{opa
     e.preventDefault();
     $('#pop').arcticmodal();
   });
+  $('.top-zz').click(function(e){
+    e.preventDefault();
+    $('#pop2').arcticmodal();
+  });
 
     function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;} 
     function run_geo(geo_url){

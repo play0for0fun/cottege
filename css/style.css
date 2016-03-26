@@ -118,7 +118,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
     animation-delay: 0.7s;
 }
 .head-title {
-    opacity: 0.1;
+    opacity: 0.35;
     color: white;
     font-size: 70px;
     width: 1920px;
@@ -158,16 +158,14 @@ line-height: 37px;
     line-height: 22px;
     
 }
-.head-trig:nth-child(1){text-align: left;width: 230px;background: url(../img/head-ico1.png) no-repeat 63px 3px;
-margin-top: 44px;min-height: 35px;padding-left: 109px; font-size: 17px; }
+.head-trig:nth-child(1){text-align: left;width: 230px;background: url(../img/head-ico1.png) no-repeat 63px 3px;margin-top: 44px;min-height: 35px;padding-left: 109px;font-size: 17px;}
 .head-trig:nth-child(2){width: 133px;height: 133px;
 background-color: rgba(255,255,255,0.2);border-radius: 100px;
 padding-top: 43px;
     line-height: 20px;
 margin: 0 40px;
 font-size: 14px;}
-.head-trig:nth-child(3){text-align: left;width: 230px;background: url(../img/head-ico2.png) no-repeat 19px 3px;
-margin-top: 44px;min-height: 35px;padding-left: 62px; font-size: 17px;}
+.head-trig:nth-child(3){text-align: left;width: 230px;background: url(../img/head-ico2.png) no-repeat 19px 3px;margin-top: 44px;min-height: 35px;padding-left: 62px;font-size: 17px;}
 
 .head-trigs {
     font-size: 0;
@@ -181,7 +179,7 @@ margin-top: 44px;min-height: 35px;padding-left: 62px; font-size: 17px;}
 }
 
 .head-trig-sm {
-    font-size: 11px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
@@ -322,7 +320,7 @@ line-height: 18px;
     background-size: 80%;
     background-position: center;
 }
-.s2-lent-chek.checked .check-sm-wrap, .s2-conf.checkedÃƒâ€šÃ‚Â .check-wrap{}
+.s2-lent-chek.checked .check-sm-wrap, .s2-conf.checkedÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .check-wrap{}
 .radio-wrap {
     width: 18px;
 height: 18px;
@@ -488,6 +486,7 @@ height: 80px;
     margin-bottom: 35px;
     height: 130px;
     animation-delay: 0.7s;
+    vertical-align: top;
 }
 
 .s4-trig-pb {
@@ -504,13 +503,12 @@ line-height: 20px;
 
 .s4-trig-pbs {
     font-family: BebasNeueBold;
-font-size: 44px;
-font-weight: 400;
+    font-size: 44px;
+    font-weight: 400;
     display: block;
-text-transform: uppercase;
+    text-transform: uppercase;
     height: 66px;
-    padding-top: 39px
-    
+    padding-top: 39px;
 }
 
 .s4-trig-li {
@@ -578,21 +576,21 @@ font-weight: 400;
 
 .s5-form {
     width: 423px;
-height: 422px;
-background-color: white;
-border-radius: 15px;
+    height: 422px;
+    background-color: white;
+    border-radius: 15px;
     text-align: center;
-    padding-top: 35px
+    padding-top: 25px;
 }
 
 .s5-form-h3 {
     color: rgb(52, 52, 52);
-font-size: 30px;
-font-weight: 400;
-line-height: 37px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
     border-bottom: 1px solid rgba(122, 122, 122,0.3);
     padding-bottom: 17px;
-    margin-bottom: 20px
+    margin-bottom: 15px;
 }
 
 .s5-form-inp-n {
@@ -843,9 +841,9 @@ line-height: 20px;
 
 .s8-h3 {
     font-size: 40px;
-font-weight: 900;
-line-height: 47px;
-    margin-bottom: 68px
+    font-weight: 900;
+    line-height: 47px;
+    margin-bottom: 60px;
 }
 
 .s8-h3-yel {
@@ -854,24 +852,25 @@ line-height: 47px;
 
 .s8-trig {
     display: inline-block;
-    font-size: 28px;
-font-weight: 400;
-line-height: 28px;
-    width: 270px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 172px;
     vertical-align: top;
-    margin: 0 1px 20px
+    margin: 0 1px 20px;
 }
 
 .s8-trig-b {
     display: block;
     font-family: BebasNeueBold;
-font-size: 54px;
-font-weight: 400;
-line-height: 40px;
-    height: 106px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 107px;
     background-image: url(../img/s8-trig.png);
     padding-top: 33px;
-    margin-bottom: 8px
+    /* background-size: 30%; */
+    margin-bottom: 8px;
 }
 
 .s8-trig-w {
@@ -951,7 +950,10 @@ line-height: 47px;
     padding-bottom: 11px;
     margin-bottom: 14px
 }
-
+.s10-form-h3a {
+    padding-bottom: 11px;
+    margin-bottom: 14px
+}
 .s10-form-inp-n {
     width: 305px;
     text-align: left;
@@ -995,7 +997,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 10;
     height: 0;
 }
 
@@ -1010,10 +1012,11 @@ line-height: 35px;
 
 .header-label-price {
     font-size: 32px;
-line-height: 26px;
+    line-height: 26px;
     display: inline-block;
     margin-left: -6px;
-    margin-top: 5px
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 .header-label-tr {
@@ -1025,37 +1028,66 @@ font-weight: 400;
     position: relative;
     top: -3px
 }
+.kom {
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
 
 .header-label {
     float: left;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 3px;
-    width: 247px;
+    width: 120px;
     position: relative;
     z-index: 5;
 }
 
 .header-phone {
-    float: right;
     text-shadow: 0 0 9px rgba(0, 0, 0, 0.38);
     color: white;
     font-family: BebasNeueBold;
     font-size: 32px;
     font-weight: 400;
-    margin-top: 30px;
-    margin-right: 9px;
-    width: 241px;
-    text-align: right;
-    position: relative;
-    z-index: 5;
 }
-
+.spa {
+    
+width: 100%;
+    
+top: 0px;
+    
+text-align: center;
+}
+.tell {
+    
+width: 100%;
+    
+top: -5px;
+    
+text-align: center;
+}
+.fone_gr {
+    
+float: right;
+    
+margin-top: 11px;
+    
+margin-right: 0px;
+    
+width: 260px;
+    
+position: relative;
+    
+z-index: 5;
+    
+text-align: center;
+}
 .logo {
     display: block;
     width: 249px;
-    height: 94px;
+    height: 104px;
     background-image: url(../img/logo.png);
-    margin: 17px auto 0;
+    margin: 10px auto 0;
     position: relative;
     z-index: 5;
 }
@@ -1081,7 +1113,15 @@ footer {
         position: relative;
         z-index: 5;
 }
-
+.top-zz {
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        border-bottom: 1px dashed white;
+        position: relative;
+        z-index: 5;
+        top: -3px;
+}
 .soc-a {
     display: inline-block;
     width: 26px;
@@ -1114,19 +1154,19 @@ footer {
     background-position: center center;
 }
    #sld-full-1{
-    background-image: url(../img/s9-bg.jpg);
+    background-image: url(../img/pp_im1.jpg);
 }
    #sld-full-2{
-    background-image: url(../img/s8-bg.jpg);
+    background-image: url(../img/pp_im2.jpg);
 }
    #sld-full-3{
-    background-image: url(../img/s5-bg.jpg);
+    background-image: url(../img/pp_im3.jpg);
 }
    #sld-full-4{
-    background-image: url(../img/s7-bg.jpg);
+    background-image: url(../img/pp_im4.jpg);
 }
    #sld-full-5{
-    background-image: url(../img/s6-bg.jpg);
+    background-image: url(../img/pp_im5.jpg);
 }
    #s9 .bx-viewport,#s9 .bx-wrapper{
     height: 100%!important;
@@ -1146,6 +1186,12 @@ footer {
     position: static;
     margin: 0;
     height: 335px;
+}
+#pop2 {}
+#pop2 .s10-form{
+    position: static;
+    margin: 0;
+    height: 370px;
 }
 #okgo{
     background: white;
@@ -1169,4 +1215,7 @@ footer {
     padding-bottom: 20px;
     background: url(../img/close.png) no-repeat 120px 21px;
     cursor: pointer;
+}
+.f2b {
+    position: relative;
 }
