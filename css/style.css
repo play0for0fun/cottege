@@ -320,7 +320,7 @@ line-height: 18px;
     background-size: 80%;
     background-position: center;
 }
-.s2-lent-chek.checked .check-sm-wrap, .s2-conf.checkedÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .check-wrap{}
+.s2-lent-chek.checked .check-sm-wrap, .s2-conf.checkedÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .check-wrap{}
 .radio-wrap {
     width: 18px;
 height: 18px;
@@ -727,15 +727,17 @@ line-height: 47px;
 }
 
 .s6-sld-img {
-    border-radius: 200px;
-    width: 280px;
-    height: 280px;
+    /* border-radius: 200px; */
+    width: 250px;
+    height: 250px;
     transform: scale(0.5);
+    background-size: contain;
     position: relative;
-    display: block;
-    left: 50%;
-    margin-left: -140px;
+    display: inline-block;
+    /* left: 50%; */
+    /* margin-left: -106px; */
     transition: all 0.5s;
+    cursor: pointer;
 }
 .s6-sld-act .s6-sld-img{
     transform: scale(1)}
@@ -1067,20 +1069,14 @@ top: -5px;
 text-align: center;
 }
 .fone_gr {
-    
-float: right;
-    
-margin-top: 11px;
-    
-margin-right: 0px;
-    
-width: 260px;
-    
-position: relative;
-    
-z-index: 5;
-    
-text-align: center;
+    float: right;
+    margin-top: 11px;
+    margin-right: 0px;
+    width: 260px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(24, 37, 2);
 }
 .logo {
     display: block;
