@@ -170,7 +170,7 @@ font-size: 14px;}
 .head-trigs {
     font-size: 0;
     text-align: center;
-    margin-top: 64px;
+    margin-top: 25px;
     animation-delay: 0.8s;
 }
 
@@ -996,7 +996,7 @@ font-size: 17px;
 
 header {
     color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 10;
