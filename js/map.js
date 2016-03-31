@@ -72,8 +72,9 @@ function init() {
     content: contentString
   });
 
-  marker.addListener('click', function() {
+  marker.addListener('mouseover', function() {
     infowindow.open(map, marker);
+    infowindow.close();
   });
 
   var marker2 = new google.maps.Marker({
@@ -91,8 +92,9 @@ function init() {
     content: contentString2
   });
 
-  marker2.addListener('click', function() {
+  marker2.addListener('mouseover', function() {
     infowindow2.open(map, marker2);
+    infowindow2.close();
   });
 
 var marker3 = new google.maps.Marker({
@@ -110,7 +112,7 @@ var marker3 = new google.maps.Marker({
     content: contentString3
   });
 
-  marker3.addListener('click', function() {
+  marker3.addListener('mouseover', function() {
     infowindow3.open(map, marker3);
   });
 
@@ -129,7 +131,7 @@ var marker4 = new google.maps.Marker({
     content: contentString4
   });
 
-  marker4.addListener('click', function() {
+  marker4.addListener('mouseover', function() {
     infowindow4.open(map, marker4);
   });
 
@@ -148,7 +150,7 @@ var marker5 = new google.maps.Marker({
     content: contentString5
   });
 
-  marker5.addListener('click', function() {
+  marker5.addListener('mouseover', function() {
     infowindow5.open(map, marker5);
   });
 
@@ -167,7 +169,7 @@ var marker6 = new google.maps.Marker({
     content: contentString6
   });
 
-  marker6.addListener('click', function() {
+  marker6.addListener('mouseover', function() {
     infowindow6.open(map, marker6);
   });
 
@@ -186,7 +188,7 @@ var marker7 = new google.maps.Marker({
     content: contentString7
   });
 
-  marker7.addListener('click', function() {
+  marker7.addListener('mouseover', function() {
     infowindow7.open(map, marker7);
   });
 
@@ -205,7 +207,7 @@ var marker8 = new google.maps.Marker({
     content: contentString8
   });
 
-  marker8.addListener('click', function() {
+  marker8.addListener('mouseover', function() {
     infowindow8.open(map, marker8);
   });
 
@@ -224,7 +226,7 @@ var marker9 = new google.maps.Marker({
     content: contentString9
   });
 
-  marker9.addListener('click', function() {
+  marker9.addListener('mouseover', function() {
     infowindow9.open(map, marker9);
   });
 
@@ -243,7 +245,7 @@ var marker10 = new google.maps.Marker({
     content: contentString10
   });
 
-  marker10.addListener('click', function() {
+  marker10.addListener('mouseover', function() {
     infowindow10.open(map, marker10);
   });
 
@@ -263,7 +265,7 @@ var marker11 = new google.maps.Marker({
     content: contentString11
   });
 
-  marker11.addListener('click', function() {
+  marker11.addListener('mouseover', function() {
     infowindow11.open(map, marker11);
   });
 
@@ -283,7 +285,7 @@ var marker12 = new google.maps.Marker({
     content: contentString12
   });
 
-  marker12.addListener('click', function() {
+  marker12.addListener('mouseover', function() {
     infowindow12.open(map, marker12);
   });
 
@@ -303,7 +305,7 @@ var marker13 = new google.maps.Marker({
     content: contentString13
   });
 
-  marker13.addListener('click', function() {
+  marker13.addListener('mouseover', function() {
     infowindow13.open(map, marker13);
   });
 
@@ -323,7 +325,7 @@ var marker14 = new google.maps.Marker({
     content: contentString14
   });
 
-  marker14.addListener('click', function() {
+  marker14.addListener('mouseover', function() {
     infowindow14.open(map, marker14);
   });
 
@@ -343,7 +345,7 @@ var marker15 = new google.maps.Marker({
     content: contentString15
   });
 
-  marker15.addListener('click', function() {
+  marker15.addListener('mouseover', function() {
     infowindow15.open(map, marker15);
   });
 
@@ -363,7 +365,7 @@ var marker16 = new google.maps.Marker({
     content: contentString16
   });
 
-  marker16.addListener('click', function() {
+  marker16.addListener('mouseover', function() {
     infowindow16.open(map, marker16);
   });
 
@@ -383,7 +385,7 @@ var marker17 = new google.maps.Marker({
     content: contentString9
   });
 
-  marker17.addListener('click', function() {
+  marker17.addListener('mouseover', function() {
     infowindow17.open(map, marker17);
   });
 
@@ -403,7 +405,7 @@ var marker18 = new google.maps.Marker({
     content: contentString18
   });
 
-  marker18.addListener('click', function() {
+  marker18.addListener('mouseover', function() {
     infowindow18.open(map, marker18);
   });
 
@@ -423,7 +425,7 @@ var marker19 = new google.maps.Marker({
     content: contentString19
   });
 
-  marker19.addListener('click', function() {
+  marker19.addListener('mouseover', function() {
     infowindow19.open(map, marker19);
   });
 
@@ -443,7 +445,7 @@ var marker20 = new google.maps.Marker({
     content: contentString20
   });
 
-  marker20.addListener('click', function() {
+  marker20.addListener('mouseover', function() {
     infowindow20.open(map, marker20);
   });
    
