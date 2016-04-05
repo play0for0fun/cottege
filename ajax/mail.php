@@ -2,7 +2,14 @@
 $frm = $_POST['frm'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-$otz = $_POST['otz'];
+$comm = $_POST['comm'];
+$sel1 = $_POST['sel1'];
+$sel2 = $_POST['sel2'];
+$sel3 = $_POST['sel3'];
+$check1 = $_POST['check1'];
+$check2 = $_POST['check2'];
+$check3 = $_POST['check3'];
+$check4 = $_POST['check4'];
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium'];
 $utm_campaign = $_POST['utm_campaign'];
@@ -26,12 +33,16 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "i.const.yank@gmail.com";
-//istraklient@mail.ru
+$to = "istraklient@mail.ru";
+
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
 $message .= "Телефон: $phone\n\n";
-$message .= "Отзыв: $otz\n\n";
+$message .= "Комуникации: Вода - $check1, Электричество - $check2, Канализация - $check3, Газ - $check4\n";
+$message .= "Качество дорог: $sel1\n";
+$message .= "Инфраструктура: $sel2\n";
+$message .= "Удаленность от воды: $sel3\n\n";
+$message .= "Комментарий: $comm\n\n";
 $message .= "Источник: $utm_source\n";
 $message .= "Тип источника: $utm_medium\n";
 $message .= "Кампания: $utm_campaign\n";
