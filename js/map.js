@@ -107,11 +107,12 @@ function init() {
         google.maps.event.addListener(marker_n, 'mouseout', function() {
             infowindow.close(map, marker_n);
         });
+        var infowindow = new google.maps.InfoWindow();
         infowindow.setContent(contentString_n);
         infowindow.open(map, marker_n);
         map.setCenter(new google.maps.LatLng(60, 30));
     }
-    var marker = new google.maps.Marker({
+    var marker0 = new google.maps.Marker({
         position: new google.maps.LatLng(56.04573, 36.734034),
         map: map,
         icon: {
@@ -122,13 +123,13 @@ function init() {
         },
         title: ''
     });
-    var contentString = 'КП "Куртниково"';
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
+    var contentString0 = 'КП "Куртниково"';
+    var infowindow0 = new google.maps.InfoWindow({
+        content: contentString0
     });
-    marker.addListener('click', function() {
+    marker0.addListener('click', function() {
         remove_markers();
-        infowindow.open(map, marker);
+        infowindow0.open(map, marker0);
     });
     var marker2 = new google.maps.Marker({
         position: new google.maps.LatLng(56.083255, 36.714972),
@@ -262,25 +263,6 @@ function init() {
     marker8.addListener('click', function() {
         remove_markers();
         infowindow8.open(map, marker8);
-    });
-    var marker9 = new google.maps.Marker({
-        position: new google.maps.LatLng(56.055932, 36.686270),
-        map: map,
-        icon: {
-            url: 'img/point.png',
-            origin: new google.maps.Point(0, 0),
-            origin: new google.maps.Point(-5, 0),
-            size: new google.maps.Size(35, 33),
-        },
-        title: ''
-    });
-    var contentString9 = 'КП "Ушаковские дачи"';
-    var infowindow9 = new google.maps.InfoWindow({
-        content: contentString9
-    });
-    marker9.addListener('click', function() {
-        remove_markers();
-        infowindow9.open(map, marker9);
     });
     var marker10 = new google.maps.Marker({
         position: new google.maps.LatLng(56.057534, 36.682365),
@@ -428,7 +410,7 @@ function init() {
     });
     var contentString17 = 'КП "Дачи Honka" ';
     var infowindow17 = new google.maps.InfoWindow({
-        content: contentString9
+        content: contentString17
     });
     marker17.addListener('click', function() {
         remove_markers();
@@ -483,7 +465,7 @@ function init() {
         },
         title: ''
     });
-    var contentString20 = 'КП "РЕКА-РЕКА"';
+    var contentString20 = 'КП "Ушаковские дачи"';
     var infowindow20 = new google.maps.InfoWindow({
         content: contentString20
     });
@@ -493,7 +475,7 @@ function init() {
     });
 
     function remove_markers() {
-        infowindow.close(map, marker);
+        infowindow0.close(map, marker0);
         infowindow2.close(map, marker2);
         infowindow3.close(map, marker3);
         infowindow4.close(map, marker4);
@@ -501,7 +483,6 @@ function init() {
         infowindow6.close(map, marker6);
         infowindow7.close(map, marker7);
         infowindow8.close(map, marker8);
-        infowindow9.close(map, marker9);
         infowindow10.close(map, marker10);
         infowindow11.close(map, marker11);
         infowindow12.close(map, marker12);
@@ -519,7 +500,7 @@ function init() {
     directionsService = new google.maps.DirectionsService();
     directionsDisplay = new google.maps.DirectionsRenderer({});
     var request = {
-        origin: new google.maps.LatLng(55.9814542, 36.79829100000006),
+        origin: new google.maps.LatLng(55.976643, 36.833703),
         destination: new google.maps.LatLng(55.755826, 37.6173),
         waypoints: [],
         travelMode: google.maps.DirectionsTravelMode.DRIVING
@@ -538,7 +519,7 @@ function init() {
             });
             directionsDisplay.setDirections(response);
             createMarker_n2(new google.maps.LatLng(55.755826, 37.6173));
-            createMarker_n(new google.maps.LatLng(55.9814542, 36.79829100000006));
+            createMarker_n(new google.maps.LatLng(55.976643, 36.833703));
         }
     });
     directionsDisplay.setMap(map);
@@ -546,7 +527,7 @@ function init() {
     directionsService2 = new google.maps.DirectionsService();
     directionsDisplay2 = new google.maps.DirectionsRenderer({});
     var request = {
-        origin: new google.maps.LatLng(55.9814542, 36.79829100000006),
+        origin: new google.maps.LatLng(55.976643, 36.833703),
         destination: new google.maps.LatLng(55.755826, 37.6173),
         waypoints: [{
             location: new google.maps.LatLng(55.84244894785094, 37.21038368465577)
@@ -573,7 +554,7 @@ function init() {
     directionsService3 = new google.maps.DirectionsService();
     directionsDisplay3 = new google.maps.DirectionsRenderer({});
     var request = {
-        origin: new google.maps.LatLng(55.9814542, 36.79829100000006),
+        origin: new google.maps.LatLng(55.976643, 36.833703),
         destination: new google.maps.LatLng(55.755826, 37.6173),
         waypoints: [{
             location: new google.maps.LatLng(55.85625537430871, 37.35403616071312)
@@ -597,7 +578,7 @@ function init() {
     });
     directionsDisplay3.setMap(map);
     var listener = google.maps.event.addListener(map, "idle", function() {
-        map.setCenter(new google.maps.LatLng(55.9544542, 37.39829100000006));
+        map.setCenter(new google.maps.LatLng(55.976643, 36.833703));
         if (map.getZoom() > 10) map.setZoom(10);
         google.maps.event.removeListener(listener);
     });
