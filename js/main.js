@@ -27,6 +27,7 @@ $(document).ready(function() {
             $('body').addClass('loaded')
         };
         $('<style>section,.section{height:800px;display:block}.animation,.animation2{opacity:1}</style>').appendTo('head');
+    $('body').addClass('loaded');
     }
     $('.logo').click(function(e) {
         e.preventDefault();
