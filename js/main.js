@@ -1,8 +1,5 @@
 function initfullpage() {
     $('#pages').fullpage({
-        scrollBar: true,
-        scrollingSpeed: 1000,
-        navigation: false,
         afterLoad: function(anchorLink, index) {
             $(this).find('.animation').addClass('fadeInUp animated');
             $(this).find('.animation2').addClass('fadeInDown animated');
