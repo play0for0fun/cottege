@@ -3,7 +3,7 @@
 a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,table:after,table:before,td:after,td:before,tr:after,tr:before{content:none}
 .wrap{position:relative;margin:0 auto;max-width:1120px;width:100%;height:100%;z-index:2}
 .clear{clear:both}
-.section,section{width:100%;overflow:hidden;z-index:1;min-width:1120px;height:800px;height:100vh}
+.section,section{width:100%;overflow:hidden;z-index: 2;min-width:1120px;height:800px;height:100vh;}
 h1,h2,h3,h4,h5{font-size:1em;font-weight:inherit;text-align:center}
 body{font-family:PFAgoraSlabPro,sans-serif;font-weight:400;letter-spacing:.027em}
 a{text-decoration:none;color:inherit;outline:0!important}
@@ -23,14 +23,14 @@ a{text-decoration:none;color:inherit;outline:0!important}
 #s9s1{top:54%;margin-top:-72px}
 #s9s2{top:20.4%}
 #s10s1{top:50%;margin-top:-264px;height:0}
-#pages{width:100%;min-width:1120px;overflow:hidden}
+#pages{width:100%;min-width:1120px;/* overflow:hidden */overflow: visible;}
 @keyframes mouseDrag{0%{top:0}
 100%{top:20px}
 }
 @-webkit-keyframes mouseDrag{0%{top:0}
 100%{top:20px}
 }
-.animation,.animation2{opacity:0;position:relative;animation-delay:.5s}
+.animation,.animation2{opacity:0;position:relative;animation-delay:.5s;}
 .s3delay{animation-delay:.7s}
 .head-title{opacity:.35;color:#fff;font-size:70px;width:1920px;position:relative;font-family:BebasNeueBold;left:50%;margin-left:-960px;top:27px;text-align:center}
 .head-h2{text-shadow:0 0 9px rgba(0,0,0,.38);color:#fff;font-size:58px;margin-top:0;font-weight:900;letter-spacing:.027em}
