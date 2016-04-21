@@ -1,5 +1,7 @@
 function initfullpage() {
     $('#pages').fullpage({
+        navigation: true,
+        autoScrolling: false,
         afterLoad: function(anchorLink, index) {
             $(this).find('.animation').addClass('fadeInUp animated');
             $(this).find('.animation2').addClass('fadeInDown animated');
@@ -29,12 +31,14 @@ $(document).ready(function() {
         $('<style>section,.section{height:800px;display:block}.animation,.animation2{opacity:1}</style>').appendTo('head');
     $('body').addClass('loaded');
     }
+    $('.mouse').click(function(e){e.preventDefault();$("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top}, 500);});
     $('.logo').click(function(e) {
         e.preventDefault();
         $("html, body").animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 1000);
     });
+
     $('.s2-lent-chek').click(function(e) {
         e.preventDefault();
         $(this).toggleClass('checked');
