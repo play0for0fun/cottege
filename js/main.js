@@ -1,4 +1,15 @@
+//мобильное устройство?
+var isMobile = false; 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+isMobile = true;
+}
+
+if (isMobile == true) {
+  $('.animation,.animation2').addClass('animated');
+  $('<style>.animation,.animation,.animation2 *{opacity:1;transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}section{height:800px!important}</style>').appendTo('head');
+}
 function initfullpage() {
+    if (isMobile != true) {
     $('#pages').fullpage({
         autoScrolling: false,
         afterLoad: function(anchorLink, index) {
@@ -14,6 +25,7 @@ function initfullpage() {
             $('.section:nth-child(' + nextIndex + ')').find('.animation2').addClass('fadeInDown animated');
         }
     });
+}
 }
 $(document).ready(function() {
   $('<link rel="stylesheet" href="css/libs.min.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
